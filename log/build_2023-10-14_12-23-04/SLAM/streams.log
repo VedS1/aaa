@@ -1,0 +1,57 @@
+[1.799s] Invoking command in '/home/orinnx0/workspaces/SLAM/build/SLAM': PYTHONPATH=/home/orinnx0/workspaces/SLAM/build/SLAM/prefix_override:/home/orinnx0/workspaces/SLAM/install/SLAM/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/orinnx0/workspaces/SLAM/build/SLAM/build --no-deps install_data
+[2.050s] /home/orinnx0/.local/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.050s] !!
+[2.050s] 
+[2.050s]         ********************************************************************************
+[2.051s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.051s]         versions. Please use the underscore name 'script_dir' instead.
+[2.051s] 
+[2.051s]         This deprecation is overdue, please update your project and remove deprecated
+[2.051s]         calls to avoid build errors in the future.
+[2.051s] 
+[2.051s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.052s]         ********************************************************************************
+[2.052s] 
+[2.052s] !!
+[2.052s]   opt = self.warn_dash_deprecation(opt, section)
+[2.466s] running develop
+[2.467s] /home/orinnx0/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.467s] !!
+[2.467s] 
+[2.467s]         ********************************************************************************
+[2.467s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.467s]         Instead, use pypa/build, pypa/installer or other
+[2.468s]         standards-based tools.
+[2.468s] 
+[2.468s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.468s]         ********************************************************************************
+[2.468s] 
+[2.468s] !!
+[2.468s]   easy_install.initialize_options(self)
+[2.535s] /home/orinnx0/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.535s] !!
+[2.535s] 
+[2.535s]         ********************************************************************************
+[2.535s]         Please avoid running ``setup.py`` directly.
+[2.536s]         Instead, use pypa/build, pypa/installer or other
+[2.536s]         standards-based tools.
+[2.536s] 
+[2.536s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.536s]         ********************************************************************************
+[2.536s] 
+[2.536s] !!
+[2.537s]   self.initialize_options()
+[2.906s] running egg_info
+[2.938s] writing SLAM.egg-info/PKG-INFO
+[2.939s] writing dependency_links to SLAM.egg-info/dependency_links.txt
+[2.939s] writing requirements to SLAM.egg-info/requires.txt
+[2.939s] writing top-level names to SLAM.egg-info/top_level.txt
+[3.010s] reading manifest file 'SLAM.egg-info/SOURCES.txt'
+[3.011s] writing manifest file 'SLAM.egg-info/SOURCES.txt'
+[3.121s] running build_ext
+[3.121s] Creating /home/orinnx0/workspaces/SLAM/install/SLAM/lib/python3.8/site-packages/SLAM.egg-link (link to .)
+[3.123s] 
+[3.123s] Installed /home/orinnx0/workspaces/SLAM/build/SLAM
+[3.123s] running install_data
+[3.123s] copying package.xml -> /home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM
+[3.201s] Invoked command in '/home/orinnx0/workspaces/SLAM/build/SLAM' returned '0': PYTHONPATH=/home/orinnx0/workspaces/SLAM/build/SLAM/prefix_override:/home/orinnx0/workspaces/SLAM/install/SLAM/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/orinnx0/workspaces/SLAM/build/SLAM/build --no-deps install_data

@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000731] (SLAM) JobQueued: {'identifier': 'SLAM', 'dependencies': OrderedDict()}
+[0.001285] (SLAM) JobStarted: {'identifier': 'SLAM'}
+[0.099252] (-) TimerEvent: {}
+[0.199916] (-) TimerEvent: {}
+[0.300570] (-) TimerEvent: {}
+[0.401064] (-) TimerEvent: {}
+[0.501563] (-) TimerEvent: {}
+[0.602135] (-) TimerEvent: {}
+[0.702751] (-) TimerEvent: {}
+[0.803236] (-) TimerEvent: {}
+[0.903706] (-) TimerEvent: {}
+[1.004173] (-) TimerEvent: {}
+[1.104669] (-) TimerEvent: {}
+[1.205128] (-) TimerEvent: {}
+[1.305602] (-) TimerEvent: {}
+[1.406102] (-) TimerEvent: {}
+[1.506561] (-) TimerEvent: {}
+[1.607034] (-) TimerEvent: {}
+[1.707503] (-) TimerEvent: {}
+[1.807985] (-) TimerEvent: {}
+[1.823257] (SLAM) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/orinnx0/workspaces/SLAM/build/SLAM/build', '--no-deps', 'install_data'], 'cwd': '/home/orinnx0/workspaces/SLAM/build/SLAM', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orinnx0', 'SSH_AGENT_PID': '2087', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:', 'HOME': '/home/orinnx0', 'OLDPWD': '/home/orinnx0/workspaces/SLAM/SLAM', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.3.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Orin NX Developer Kit', 'MANAGERPID': '1342', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/orinnx0/workspaces/SLAM/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'orinnx0', 'JETSON_MODULE': 'NVIDIA Jetson Orin NX (8GB ram)', 'JETSON_SERIAL_NUMBER': '1420923046530', 'JOURNAL_STREAM': '7:54436', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orinnx0', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/orinnx0/workspaces/SLAM/src/cws_pkg/gazebo', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/usr/local/cuda/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/home/orinnx0/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2141,unix/ubuntu:/tmp/.ICE-unix/2141', 'INVOCATION_ID': '04e5c13545d74338b8d6dca14e987bc2', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8ba3c0bc_15f9_48b2_bb27_08ad236f126d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/orinnx0/workspaces/SLAM/install/SLAM:/home/orinnx0/workspaces/SLAM/install/cws_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/orinnx0/workspaces/SLAM/build/SLAM', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orinnx0/workspaces/SLAM/build/SLAM/prefix_override:/home/orinnx0/workspaces/SLAM/install/SLAM/lib/python3.8/site-packages:/home/orinnx0/workspaces/SLAM/build/SLAM:/home/orinnx0/workspaces/SLAM/install/SLAM/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.1', 'CMAKE_PREFIX_PATH': '/home/orinnx0/workspaces/SLAM/install/cws_pkg', 'JETSON_P_NUMBER': 'p3767-0001'}, 'shell': False}
+[1.908160] (-) TimerEvent: {}
+[2.008751] (-) TimerEvent: {}
+[2.080758] (SLAM) StderrLine: {'line': b'/home/orinnx0/.local/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[2.081312] (SLAM) StderrLine: {'line': b'!!\n'}
+[2.081479] (SLAM) StderrLine: {'line': b'\n'}
+[2.081623] (SLAM) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.081763] (SLAM) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[2.081895] (SLAM) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[2.082043] (SLAM) StderrLine: {'line': b'\n'}
+[2.082175] (SLAM) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[2.082296] (SLAM) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[2.082413] (SLAM) StderrLine: {'line': b'\n'}
+[2.082527] (SLAM) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[2.082643] (SLAM) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.082758] (SLAM) StderrLine: {'line': b'\n'}
+[2.082871] (SLAM) StderrLine: {'line': b'!!\n'}
+[2.082984] (SLAM) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[2.108857] (-) TimerEvent: {}
+[2.209302] (-) TimerEvent: {}
+[2.309782] (-) TimerEvent: {}
+[2.410260] (-) TimerEvent: {}
+[2.504150] (SLAM) StdoutLine: {'line': b'running develop\n'}
+[2.504736] (SLAM) StderrLine: {'line': b'/home/orinnx0/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[2.504917] (SLAM) StderrLine: {'line': b'!!\n'}
+[2.505061] (SLAM) StderrLine: {'line': b'\n'}
+[2.505193] (SLAM) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.505321] (SLAM) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[2.505444] (SLAM) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.505578] (SLAM) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.505701] (SLAM) StderrLine: {'line': b'\n'}
+[2.505837] (SLAM) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[2.505956] (SLAM) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.506114] (SLAM) StderrLine: {'line': b'\n'}
+[2.506239] (SLAM) StderrLine: {'line': b'!!\n'}
+[2.506355] (SLAM) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[2.510328] (-) TimerEvent: {}
+[2.574616] (SLAM) StderrLine: {'line': b'/home/orinnx0/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[2.574933] (SLAM) StderrLine: {'line': b'!!\n'}
+[2.575090] (SLAM) StderrLine: {'line': b'\n'}
+[2.575229] (SLAM) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.575364] (SLAM) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[2.575492] (SLAM) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.575614] (SLAM) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.575735] (SLAM) StderrLine: {'line': b'\n'}
+[2.575852] (SLAM) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[2.575971] (SLAM) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.576088] (SLAM) StderrLine: {'line': b'\n'}
+[2.576203] (SLAM) StderrLine: {'line': b'!!\n'}
+[2.576316] (SLAM) StderrLine: {'line': b'  self.initialize_options()\n'}
+[2.610438] (-) TimerEvent: {}
+[2.710839] (-) TimerEvent: {}
+[2.811279] (-) TimerEvent: {}
+[2.911739] (-) TimerEvent: {}
+[2.943626] (SLAM) StdoutLine: {'line': b'running egg_info\n'}
+[2.943997] (SLAM) StdoutLine: {'line': b'creating SLAM.egg-info\n'}
+[2.978033] (SLAM) StdoutLine: {'line': b'writing SLAM.egg-info/PKG-INFO\n'}
+[2.978609] (SLAM) StdoutLine: {'line': b'writing dependency_links to SLAM.egg-info/dependency_links.txt\n'}
+[2.979087] (SLAM) StdoutLine: {'line': b'writing requirements to SLAM.egg-info/requires.txt\n'}
+[2.979373] (SLAM) StdoutLine: {'line': b'writing top-level names to SLAM.egg-info/top_level.txt\n'}
+[2.981532] (SLAM) StdoutLine: {'line': b"writing manifest file 'SLAM.egg-info/SOURCES.txt'\n"}
+[3.011839] (-) TimerEvent: {}
+[3.051148] (SLAM) StdoutLine: {'line': b"reading manifest file 'SLAM.egg-info/SOURCES.txt'\n"}
+[3.052327] (SLAM) StdoutLine: {'line': b"writing manifest file 'SLAM.egg-info/SOURCES.txt'\n"}
+[3.111969] (-) TimerEvent: {}
+[3.163753] (SLAM) StdoutLine: {'line': b'running build_ext\n'}
+[3.164168] (SLAM) StdoutLine: {'line': b'Creating /home/orinnx0/workspaces/SLAM/install/SLAM/lib/python3.8/site-packages/SLAM.egg-link (link to .)\n'}
+[3.165480] (SLAM) StdoutLine: {'line': b'\n'}
+[3.165675] (SLAM) StdoutLine: {'line': b'Installed /home/orinnx0/workspaces/SLAM/build/SLAM\n'}
+[3.165822] (SLAM) StdoutLine: {'line': b'running install_data\n'}
+[3.165994] (SLAM) StdoutLine: {'line': b'creating /home/orinnx0/workspaces/SLAM/install/SLAM/share\n'}
+[3.166227] (SLAM) StdoutLine: {'line': b'creating /home/orinnx0/workspaces/SLAM/install/SLAM/share/ament_index\n'}
+[3.166482] (SLAM) StdoutLine: {'line': b'creating /home/orinnx0/workspaces/SLAM/install/SLAM/share/ament_index/resource_index\n'}
+[3.166694] (SLAM) StdoutLine: {'line': b'creating /home/orinnx0/workspaces/SLAM/install/SLAM/share/ament_index/resource_index/packages\n'}
+[3.166831] (SLAM) StderrLine: {'line': b"error: can't copy 'resource/SLAM': doesn't exist or not a regular file\n"}
+[3.212098] (-) TimerEvent: {}
+[3.243143] (SLAM) CommandEnded: {'returncode': 1}
+[3.244335] (SLAM) JobEnded: {'identifier': 'SLAM', 'rc': 1}
+[3.254251] (-) EventReactorShutdown: {}

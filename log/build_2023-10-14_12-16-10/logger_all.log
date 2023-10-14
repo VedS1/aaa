@@ -1,0 +1,97 @@
+[5.129s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-skip', 'realsense2_camera'][0m
+[5.129s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9501ab80>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=['realsense2_camera'], packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9501ab80>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff953aa5e0>)[0m
+[5.332s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[5.332s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[5.333s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[5.333s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[5.333s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[5.333s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[5.333s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/orinnx0/workspaces/SLAM'
+[5.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[5.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[5.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[5.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[5.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[5.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[5.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[5.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[5.367s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage '.' with type 'ros.ament_python' and name 'SLAM'[0m
+[5.367s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[5.368s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[5.368s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[5.368s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[5.368s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[5.394s] [34mcolcon.colcon_core.package_selection[0m [1;30mWARNING[0m [33mignoring unknown package 'realsense2_camera' in --packages-skip[0m
+[5.518s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[5.519s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[5.544s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/orinnx0/workspaces/SLAM/install/cws_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[5.545s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/orinnx0/workspaces/SLAM/install/cws_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[5.571s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/orinnx0/workspaces/SLAM/install[0m
+[5.597s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 372 installed packages in /opt/ros/foxy[0m
+[5.601s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[5.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'SLAM' build argument 'cmake_args' from command line to 'None'
+[5.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'SLAM' build argument 'cmake_target' from command line to 'None'
+[5.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'SLAM' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'SLAM' build argument 'cmake_clean_cache' from command line to 'False'
+[5.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'SLAM' build argument 'cmake_clean_first' from command line to 'False'
+[5.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'SLAM' build argument 'cmake_force_configure' from command line to 'False'
+[5.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'SLAM' build argument 'ament_cmake_args' from command line to 'None'
+[5.769s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'SLAM' build argument 'catkin_cmake_args' from command line to 'None'
+[5.770s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'SLAM' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.770s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'SLAM' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orinnx0/workspaces/SLAM/build/SLAM', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orinnx0/workspaces/SLAM/install/SLAM', 'merge_install': False, 'path': '/home/orinnx0/workspaces/SLAM', 'symlink_install': True, 'test_result_base': None}[0m
+[5.794s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[5.821s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[5.821s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/orinnx0/workspaces/SLAM' with build type 'ament_python'
+[5.822s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('SLAM', 'ament_prefix_path')
+[5.850s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/hook/ament_prefix_path.ps1'
+[5.852s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/hook/ament_prefix_path.dsv'
+[5.853s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/hook/ament_prefix_path.sh'
+[5.879s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.879s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[6.367s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/orinnx0/workspaces/SLAM'
+[6.393s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.393s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[7.783s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orinnx0/workspaces/SLAM/build/SLAM': PYTHONPATH=/home/orinnx0/workspaces/SLAM/build/SLAM/prefix_override:/home/orinnx0/workspaces/SLAM/install/SLAM/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/orinnx0/workspaces/SLAM/build/SLAM/build --no-deps install_data[0m
+[9.218s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('SLAM', 'pythonpath_develop')
+[9.220s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orinnx0/workspaces/SLAM/build/SLAM' returned '0': PYTHONPATH=/home/orinnx0/workspaces/SLAM/build/SLAM/prefix_override:/home/orinnx0/workspaces/SLAM/install/SLAM/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/orinnx0/workspaces/SLAM/build/SLAM/build --no-deps install_data[0m
+[9.246s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orinnx0/workspaces/SLAM/build/SLAM/share/SLAM/hook/pythonpath_develop.ps1'
+[9.247s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orinnx0/workspaces/SLAM/build/SLAM/share/SLAM/hook/pythonpath_develop.dsv'
+[9.248s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orinnx0/workspaces/SLAM/build/SLAM/share/SLAM/hook/pythonpath_develop.sh'
+[9.278s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orinnx0/workspaces/SLAM/install/SLAM' for CMake module files
+[9.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orinnx0/workspaces/SLAM/install/SLAM' for CMake config files
+[9.280s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orinnx0/workspaces/SLAM/install/SLAM/lib'
+[9.280s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orinnx0/workspaces/SLAM/install/SLAM/bin'
+[9.280s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orinnx0/workspaces/SLAM/install/SLAM/lib/pkgconfig/SLAM.pc'
+[9.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orinnx0/workspaces/SLAM/install/SLAM/lib/python3.8/site-packages'
+[9.281s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('SLAM', 'pythonpath')
+[9.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/hook/pythonpath.ps1'
+[9.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/hook/pythonpath.dsv'
+[9.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/hook/pythonpath.sh'
+[9.309s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orinnx0/workspaces/SLAM/install/SLAM/bin'
+[9.309s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(SLAM)
+[9.333s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/package.ps1'
+[9.336s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/package.dsv'
+[9.337s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/package.sh'
+[9.338s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/package.bash'
+[9.340s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orinnx0/workspaces/SLAM/install/SLAM/share/SLAM/package.zsh'
+[9.341s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orinnx0/workspaces/SLAM/install/SLAM/share/colcon-core/packages/SLAM)
+[9.341s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[9.342s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[9.342s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[9.343s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[9.377s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.377s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.377s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[9.399s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[9.425s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orinnx0/workspaces/SLAM/install/local_setup.ps1'
+[9.427s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/orinnx0/workspaces/SLAM/install/_local_setup_util_ps1.py'
+[9.429s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orinnx0/workspaces/SLAM/install/setup.ps1'
+[9.456s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orinnx0/workspaces/SLAM/install/local_setup.sh'
+[9.457s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/orinnx0/workspaces/SLAM/install/_local_setup_util_sh.py'
+[9.458s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orinnx0/workspaces/SLAM/install/setup.sh'
+[9.483s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orinnx0/workspaces/SLAM/install/local_setup.bash'
+[9.484s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orinnx0/workspaces/SLAM/install/setup.bash'
+[9.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orinnx0/workspaces/SLAM/install/local_setup.zsh'
+[9.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orinnx0/workspaces/SLAM/install/setup.zsh'

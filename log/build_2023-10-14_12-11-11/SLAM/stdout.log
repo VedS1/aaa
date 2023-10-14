@@ -1,0 +1,19 @@
+running develop
+running egg_info
+creating SLAM.egg-info
+writing SLAM.egg-info/PKG-INFO
+writing dependency_links to SLAM.egg-info/dependency_links.txt
+writing requirements to SLAM.egg-info/requires.txt
+writing top-level names to SLAM.egg-info/top_level.txt
+writing manifest file 'SLAM.egg-info/SOURCES.txt'
+reading manifest file 'SLAM.egg-info/SOURCES.txt'
+writing manifest file 'SLAM.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/orinnx0/workspaces/SLAM/install/SLAM/lib/python3.8/site-packages/SLAM.egg-link (link to .)
+
+Installed /home/orinnx0/workspaces/SLAM/build/SLAM
+running install_data
+creating /home/orinnx0/workspaces/SLAM/install/SLAM/share
+creating /home/orinnx0/workspaces/SLAM/install/SLAM/share/ament_index
+creating /home/orinnx0/workspaces/SLAM/install/SLAM/share/ament_index/resource_index
+creating /home/orinnx0/workspaces/SLAM/install/SLAM/share/ament_index/resource_index/packages
